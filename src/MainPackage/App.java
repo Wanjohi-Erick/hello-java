@@ -10,6 +10,13 @@ public class App {
         name = scanner.nextLine();
         System.out.println("Your name is "+ name);
         scanner.close();
+
+        getName(name);
+    }
+
+    public static void getName(String name) {
+        String newName = name;
+        System.out.print(newName);
     }
 
     
